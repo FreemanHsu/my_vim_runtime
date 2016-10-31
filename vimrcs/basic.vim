@@ -105,7 +105,7 @@ set whichwrap+=<,>,h,l
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+   "  set mouse=a
 endif
 
 " Ignore case when searching
@@ -148,7 +148,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme solarized
 catch
 endtry
 
